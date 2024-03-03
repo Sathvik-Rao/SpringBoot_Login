@@ -46,7 +46,11 @@ INSERT INTO usert (id, username, password, role) values
 	(2, 'user2', '$2a$10$FzdzNyXJIn1nRIKXRLLWmOmmSFLBdvMQgaMO6kdPHpvg94Vth0H52', 'ROLE_USER'),	--password = pass2
 	(3, 'admin', '$2a$10$z303SZBL1330WhDyuMvltuA/Q0OlK6Bc4wdWRqewvIoX0JksYvCWq', 'ROLE_ADMIN'); --password = pass3
 ```
-The passwords are encoded using the Bcrypt hashing method. You can use a tool like (https://www.browserling.com/tools/bcrypt) to generate bcrypt hashes for passwords. For example, for the password pass1 with 10 rounds, the bcrypt hash is $2a$10$Rd0QuZhnLMVBzmJRkm3vNujZiTzUBhmxh0Rdd0XAPoMyb10K5YwmG.
+The passwords are encoded using the Bcrypt hashing method. 
+
+You can use a tool like (https://www.browserling.com/tools/bcrypt) to generate bcrypt hashes for passwords. 
+
+For example, for the password pass1 with 10 rounds, the bcrypt hash is ```$2a$10$Rd0QuZhnLMVBzmJRkm3vNujZiTzUBhmxh0Rdd0XAPoMyb10K5YwmG```.
 
 
 
